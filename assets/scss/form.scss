@@ -1,0 +1,23 @@
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+  height: 20px;
+  border-radius: $spacing-xs;
+  padding: $spacing-s;
+  font-size: $font-size-default;
+}
+
+.input {
+  &__error-message {
+    color: $danger;
+    margin: $spacing-xxs;
+    font-size: $font-size-s;
+  }
+  &--secondary {
+    border: 1px solid $secondary;
+  }
+
+  &--danger {
+    border: 1px solid $danger !important;
+  }
+}

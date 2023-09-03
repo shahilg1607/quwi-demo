@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  padding: $spacing-xl;
+  border-radius: $spacing-xxs;
+  border: 1px solid $lightgray;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    color: $font-color-default;
+    font-size: $font-size-m;
+    font-weight: $font-weight-medium;
+    padding-bottom: $spacing-s;
+  }
+
+  &__content {
+    color: $font-color-default;
+  }
+}

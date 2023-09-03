@@ -1,0 +1,32 @@
+.btn {
+  height: 40px;
+  font-size: $font-size-default;
+  color: $font-color-default;
+  border-radius: $spacing-xs;
+  border: none;
+  cursor: pointer;
+  padding: $spacing-s;
+
+  &--primary {
+    background: $primary;
+    color: $white;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.btn-text {
+  height: 40px;
+  font-size: $font-size-s;
+  border: none;
+  cursor: pointer;
+  background: unset;
+  margin: 0 $spacing-s;
+  color: $gray;
+
+  &:hover {
+    font-weight: $font-weight-bold;
+  }
+}

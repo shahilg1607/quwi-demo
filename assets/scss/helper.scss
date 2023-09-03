@@ -1,0 +1,39 @@
+.text-danger {
+  color: $danger;
+}
+
+.text-success {
+  color: $success;
+}
+
+.spacing-bottom {
+  margin-bottom: $spacing-default;
+}
+
+.spacing-left {
+  margin-left: $spacing-default;
+}
+
+.no-margin {
+  margin: 0px !important;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.no-border {
+  border: unset;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-80 {
+  width: 80%;
+}

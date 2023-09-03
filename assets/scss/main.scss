@@ -1,0 +1,28 @@
+@import './fonts.scss';
+body {
+  background-color: $theme-background;
+  font-family: 'Roboto';
+  margin: unset;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-s;
+  align-items: center;
+  margin-top: $spacing-double * 2;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: $spacing-default 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
